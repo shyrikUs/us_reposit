@@ -1,0 +1,14 @@
+<button id="btn" type="button" name="button" onclick="func()">кнопка</button>
+  <script type="text/javascript">
+
+    var a=0
+    console.log(a)
+    console.log(document.getElementById("btn"))
+    function func() {
+      switch (a%2) {
+        case (0): { console.log('Первая функция'); break; }
+        case (1): { console.log('Вторая функция'); break; }
+      }
+    a++
+    }
+  </script>
